@@ -1,3 +1,4 @@
 # PORTFÓLIO
 > PROJETO SENDO REALIZADO PARA DEMONSTRAR SKILLS EM FRONT-END
->> RESOLVI DESENVOLVER ESSE PROJETO, POIS, EU NÃO TINHA UM PORTFOIL, ENTÃO RESOLVI FAZER COM BASE OS MEUS CONHECIMENTOS EM PROGRAMAÇÃO.
+
+>> Decidi empreender este projeto, pois não possuía um portfólio prévio. Assim, optei por desenvolvê-lo utilizando os meus conhecimentos em programação como base
