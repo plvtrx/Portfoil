@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232732;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #f0f8ff;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu {
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+    transition: 1s ease;
+    border-radius: 5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #24272C;
+    box-shadow: -3px -3px 7px #2b2f3b;
+} .menu:hover {
+    cursor: pointer;
+    background-color: #1f2227;
+}
+
+main {
+    margin: auto;
+}
+
+.resume {
+    width: 100%;
+    height: 47rem;
+    display: flex;
+    margin: 4rem auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.padraoFormater {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.ft {
+    overflow: hidden;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+    background-color: #000;
+    box-shadow: -10px -5px 20px #2b2f3b;
+}.sombraFt{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+    box-shadow: 5px 5px 20px #000000;
+}
+
+.text {
+    margin: 1em;
+    color: #fff;
+    text-align: center;
+} .destaque {
+    color: #D32D20;
+} .conteudo{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.btn{
+    gap: 2rem;
+    margin: 1rem auto;
+    display: flex;
+}.btn-resume {
+    background: transparent;
+    border: none;
+
+    width: 6rem;
+    color: #fff;
+    height: 3rem;
+    transition: 1s ease;
+    border-radius: 5rem;
+    background-color: #24272C;
+    box-shadow: -3px -3px 7px #2b2f3b;
+}.btn-resume:hover {
+    cursor: pointer;
+    background-color: #1f2227;
+}
+
+.about {
+    gap: 5rem;
+    width: 100%;
+    height: 40rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2em;
+    background: url(/IMG/car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: -1px -1px 20px #464545;
+}.sombra {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2em;
+    box-shadow: 5px 6px 20px #000000;
+    overflow: hidden;
+}
+
+.aboutConteudo {
+    margin: 1rem auto;
+}
+
+.projects {
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} .bar {
+    width: 60rem;
+    height: 0.3rem;
+    overflow: hidden;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: #F7A21E;
+} .interBar {
+    width: 70%;
+    height: 100%;
+    background-color: #7733FF;
+}
+
+.btnProject {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-project {
+    background: none;
+    border: none;
+
+    width: 15rem;
+    height: 3rem;
+    margin: 4rem auto;
+    background-color: #24272C;
+    box-shadow: -3px -3px 7px #2b2f3b;
+
+    border-radius: 20px;
+    color: #fff;
+}.btn-project:first-child {
+    background-color: #7733FF;
+}
+
+.elementProject {
+    width: 100%;
+    height: 45rem;
+    display: flex;
+}.group-element {
+    width: 30%;
+    height: 45rem;
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}.firstElement, .secondElement, .thirdElement {
+    width: 5rem;
+    height: 5rem;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.firstElement:hover, .secondElement:hover, .thirdElement:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.cardElement {
+    width: 70%;
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} .card {
+    width: 30rem;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #24272C;
+    box-shadow: -3px -3px 7px #2b2f3b;
+} .imageCard {
+    width: 85%;
+    overflow: hidden;
+    height: 18rem;
+    background-color: #24272C;
+    border-radius: 30px 30px 0 0;
+} .textCard {
+    padding: 2rem;
+    font-size: 0.7rem;
+}.cardTitle {
+    margin: 0.5rem auto;
+} .sombraCard{
+    width: 30rem;
+    height: 35rem;
+    border-radius: 30px;
+    box-shadow: -3px -3px 7px #040404;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+i {
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 1s ease;
+} i:hover {
+    transform: scale(1.1);
+}
+
+.skills {
+    text-align: end;
+}
+
+.linguagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20rem;
+}.lenguege {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.imgIcon:hover {
+    transform: scale(1.1);
+}
+
+.css, .js {
+    width: 5rem;
+    height: 5rem;
+    transition: 1s ease;
+}
+
+.git,.node {
+    width: 3rem;
+    height: 3rem;
+    transition: 1s ease;
+}
+
+.html, .php {
+    width: 4rem;
+    height: 4rem;
+    transition: 1s ease;
+}
+
+.btnLinguagem {
+    border: none;
+    background: none;
+
+    margin-bottom: 3rem;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #7733FF;
+    color: #FFF;
+}
+
+.certificado {
+    gap: 1rem;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificadoSecond {
+    width: 25rem;
+    height: 15rem;
+    background-color: #464545;
+    border-radius: 20px;
+    overflow: hidden;
+}.certificadoFirst, .certificadoThird {
+    background-color: #464545;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.experience {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.groupEducation {
+    display: flex;
+    gap:6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnExperience {
+    background: none;
+    border: none;
+
+    background-color: #7733FF;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.cardExperience {
+    margin-top: 1rem;
+    background-color: #232732;
+    width: 20rem;
+    height: 8rem;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px #252934;
+}.cardsExp {
+    gap: 2rem;
+    display: flex;
+}.shandowExp {
+    background-color: #232732;
+    width: 20rem;
+    height: 8rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px #040404;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.pipe {
+    width: 6rem;
+    height: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.ball {
+    background-color: #7733FF;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .barY {
+    width: 0.2rem;
+    height: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2f3b;
+} .ballz {
+    background-color: #7733FF;
+    width: 2rem;
+    height: 2rem;
+}
+
+.academico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} .cardtransluced {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 20rem;
+}.desk {
+    margin: 1rem auto;
+    color: #868686;
+}.desk2 {
+    margin: 0.5rem auto;
+    color: #868686;
+}
+
+.periodo {
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    color: #7733FF;
+}
+
+footer {
+    width: 100%;
+    height: 3rem; 
+}.footerBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .barFooter {
+    width: 100%;
+    height: 100%;
+    background-color: #7733FF;
+} .linkDesign {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    color: #b1b1b1;
+} a {
+    text-decoration: none;
+    color: #b1b1b1;
+}.barFo {
+    width: 90%;
+    height: 0.1rem;
+    overflow: hidden;
+    background-color: #7733FF;
+}
