@@ -320,17 +320,24 @@ i {
 }
 
 .certificadoSecond {
-    width: 25rem;
-    height: 15rem;
+    width: 20rem;
+    height: 10rem;
     background-color: #464545;
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.3s ease;
 }.certificadoFirst, .certificadoThird {
     background-color: #464545;
     width: 20rem;
     height: 10rem;
     border-radius: 20px;
     overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.certificadoSecond:hover, .certificadoFirst:hover, .certificadoThird:hover{
+    width: 30rem;
+    height: 20rem;
 }
 
 .experience {

@@ -1,9 +1,7 @@
 # PORTFÓLIO
 > Projeto sendo realizado para demonstrar skills em FRONT-END.
 
-> Decidi empreender este projeto, pois não possuía um portfólio prévio. Assim, optei por desenvolvê-lo utilizando os meus conhecimentos em programação como base.
-
-> Nesse projeto irá ser visto algumas habilidades de FRONT-END como:
+> Nesse projeto Será utilizado habilidades de FRONT-END como:
 >>- HMTL
 >>- CSS
 >>- JAVASCRIPT
