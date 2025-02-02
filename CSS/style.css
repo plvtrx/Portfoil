@@ -128,7 +128,7 @@ main {
     width: 30rem;
     height: 30rem;
     border-radius: 2em;
-    background: url(/IMG/car.jpg);
+    background: url(/IMG/sobre.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -319,17 +319,10 @@ i {
     justify-content: center;
 }
 
-.certificadoSecond {
+.certificadoSecond, .certificadoFirst, .certificadoThird  {
     width: 20rem;
     height: 10rem;
     background-color: #464545;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.3s ease;
-}.certificadoFirst, .certificadoThird {
-    background-color: #464545;
-    width: 20rem;
-    height: 10rem;
     border-radius: 20px;
     overflow: hidden;
     transition: 0.3s ease;
@@ -466,4 +459,58 @@ footer {
     height: 0.1rem;
     overflow: hidden;
     background-color: #7733FF;
+}
+
+@media screen and (max-width: 768px) { 
+    .image{
+        display: none;
+    }
+
+    .bar {
+        width: 40rem;
+    }
+
+    .btnProject {
+        width: 40rem;
+    }
+
+    .group-element {
+        width: 30%;
+    } .cardElement{
+        width: 70%;
+    } .elementProject {
+        gap:3rem;
+    }
+
+    .certificado {
+        padding: 1rem;
+    }
+
+    .certificadoSecond, .certificadoFirst, .certificadoThird  {
+        width: 15rem;
+        height: 10rem;
+        background-color: #464545;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: 0.3s ease;
+    }
+    
+    .certificadoSecond:hover, .certificadoFirst:hover, .certificadoThird:hover{
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .breakLine {
+        display:none;
+    }
+
+    .cardFirst {
+        margin: 1rem 0rem 0rem 4rem;
+        width: 15rem;
+    }
+
+    .shandowFirst, .shandowSecond {
+        width: 15rem;
+    }
+
 }
